@@ -1,6 +1,20 @@
 # chat-history
 
-Claude Code 的右側「過往對話」面板。列出你在 Claude Code 裡的過往對話，用 Haiku 自動依專案分類，點一下就能切換回那段對話。
+Claude Code 的過往對話側邊欄，自動依專案分類，點一下就能切回舊對話。
+
+## 快速安裝
+
+需要先裝好 [Claude Code](https://claude.com/claude-code)。在 Claude Code 的輸入框貼上這行：
+
+```
+/plugin install chat-history --marketplace kurururallen-dev/chat-history
+```
+
+問「Add marketplace?」時按 `y`，安裝範圍選 **user**（所有資料夾都能用），裝好後重開 Claude Code。
+
+> ⚠️ 不用按綠色的「Code → Download ZIP」，下載下來沒辦法用，請用上面的指令安裝。
+
+裝好後，按輸入框下方的「☰ 過往對話」，或打 `/chats`，就會打開右側面板。
 
 ## 功能
 
@@ -10,15 +24,7 @@ Claude Code 的右側「過往對話」面板。列出你在 Claude Code 裡的�
 - **刪除**：每段對話後面的「刪除」按兩次才會執行。對話檔會搬到 `~/.claude/chat-archive/`，不是永久刪除，搬回 `~/.claude/projects/` 原資料夾即可救回。
 - **狀態列按鈕**：輸入框下方的提示列旁有「☰ 過往對話」，按一下開關面板。也可以打 `/chats`。
 
-## 安裝
-
-在 Claude Code 的輸入框：
-
-```
-/plugin install chat-history --marketplace kurururallen-dev/chat-history
-```
-
-接著按 `y` 加入 marketplace，再選安裝範圍（建議 user，所有資料夾都能用）。
+## 其他安裝方式
 
 從終端機：
 
