@@ -1,0 +1,16 @@
+{
+  "name": "chat-history",
+  "version": "0.5.0",
+  "description": "右側面板列出過往的 Claude Code 對話，依專案自動分類；狀態列旁有「☰ 過往對話」按鈕可開關",
+  "types": "./types/index.d.ts",
+  "author": { "name": "kururu" },
+  "license": "MIT",
+  "userConfig": {
+    "taxonomyFile": {
+      "type": "string",
+      "title": "分類清單筆記",
+      "description": "一份 Markdown 筆記的完整路徑（可用 ~/ 開頭）。面板讀它「## 專案」標題底下的清單當作分類，格式是「- 專案名稱：判斷提示」，縮排兩格可加子專案。留空就用內建的通用分類。",
+      "default": ""
+    }
+  }
+}

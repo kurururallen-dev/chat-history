@@ -1,0 +1,13 @@
+{
+  "name": "chat-history",
+  "description": "Claude Code 的過往對話側邊面板，依專案自動分類",
+  "owner": {
+    "name": "kururu"
+  },
+  "plugins": [
+    {
+      "name": "chat-history",
+      "source": "./"
+    }
+  ]
+}
